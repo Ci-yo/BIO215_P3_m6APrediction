@@ -3,16 +3,11 @@ m6APrediction
 
 <!-- README.Rmd — knit to produce README.md for GitHub -->
 
-# m6APrediction
-
 **Purpose.** Encode 5-mer DNA strings and predict N6-methyladenosine
 (m6A) using a pre-trained RandomForest model.  
 This package provides: (i) `dna_encoding()` to convert 5-mers into
 factor features; (ii) `prediction_single()` and `prediction_multiple()`
 for inference.
-
-> Place your performance images at: `man/figures/ROC.png` and
-> `man/figures/PRC.png` before knitting.
 
 ## Installation
 
@@ -50,7 +45,7 @@ prediction_multiple(rf, c("ATCGA","GGGTT","TACGA"), 0.5)
 The following figures (produced in Practical 4) summarize model
 performance.
 
-<img src="man/figures/ROC.png" width="60%" style="display: block; margin: auto;" /><img src="man/figures/PRC.png" width="60%" style="display: block; margin: auto;" />
+<img src="man/figures/AU.png" width="70%" style="display: block; margin: auto;" />
 
 - **ROC curve** with AUROC.  
 - **Precision–Recall curve** with AUPRC.
