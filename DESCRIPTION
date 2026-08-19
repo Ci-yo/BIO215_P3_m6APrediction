@@ -2,7 +2,7 @@ Package: m6APrediction
 Type: Package
 Title: Predict m6A Sites from 5-mer and Context Features
 Version: 1.0.0
-Authors@R: person("Xiyao", "Chen", email = "Xiyao.Chen22@student.xjtlu.edu.cn", role = c("aut","cre"))
+Authors@R: person("Xiyao", "Chen", email = "Ci-yo@users.noreply.github.com", role = c("aut","cre"))
 Description: Utilities to encode 5-mer DNA strings and to predict N6-methyladenosine (m6A) using a pre-trained RandomForest model. Provides single-sequence and batch prediction helpers and ships the example model under 'inst/extdata'.
 License: MIT + file LICENSE
 Encoding: UTF-8
@@ -13,5 +13,5 @@ Imports:
 Suggests: knitr, rmarkdown
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
-URL: https://github.com/Ci-yo/m6APrediction
-BugReports: https://github.com/Ci-yo/m6APrediction/issues
+URL: https://github.com/Ci-yo/BIO215_P3_m6APrediction
+BugReports: https://github.com/Ci-yo/BIO215_P3_m6APrediction/issues

@@ -3,4 +3,5 @@
 ^LICENSE\.md$
 ^README\.Rmd$
 ^README\.html$
-^^figure$$
+^\.github$
+^scripts$
